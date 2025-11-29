@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Saladzo - Delicious Salad Everyday</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">Saladzo</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-links" id="navLinks">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Offers</a>
+                <a href="#">Contact</a>
+                <a href="#" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Delicious Salad Everyday</h1>
+            <p>Fresh • Healthy • Fast Delivery</p>
+            <button class="btn">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="cat-grid">
+            <div class="cat-item" data-category="all">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="All"/>
+                <p>All Items</p>
+            </div>
+            <div class="cat-item" data-category="fruits">
+                <img src="https://images.unsplash.com/photo-1547514701-42782101795e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Fruits"/>
+                <p>Fruits</p>
+            </div>
+            <div class="cat-item" data-category="vegetables">
+                <img src="https://images.unsplash.com/photo-1547516508-e910d52cb03a?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Vegetables"/>
+                <p>Vegetables</p>
+            </div>
+            <div class="cat-item" data-category="burger">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Burger"/>
+                <p>Burger</p>
+            </div>
+            <div class="cat-item" data-category="salad">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Salad"/>
+                <p>Salad</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2 class="section-title">Best Selling</h2>
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be loaded by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Saladzo. All rights reserved. Made with ❤️ in India</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
